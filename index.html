@@ -12,11 +12,11 @@
 <body>
     <header>
         <div class="div-logo">
-            <img src="IMG/1-01.png" class="img-logo">
+            <a class="nochangea" href="index.html"><img src="IMG/1-01.png" class="img-logo"></a>
         </div>
 
         <div class="div-buts">
-            <div class="mx mx-4"><a class="nochangea" href="x3.html" onclick="func1();"><p class="m-0">Home</p><div class="active active1">_</div></a></div>
+            <div class="mx mx-4"><a class="nochangea" href="index.html" onclick="func1();"><p class="m-0">Home</p><div class="active active1">_</div></a></div>
             <div class="mx mx-5"><a class="nochangea" href="x4.html" onclick="func2();"><p class=" m-1">Digital menu</p><div class="active active2">_</div></a></div>
             <div class="mx mx-6"><a class="nochangea" href="x.html" onclick="func3();"><p class="m-2">Contact</p><div class="active active3">_</div></a></div>
         </div>
@@ -27,6 +27,23 @@
                 <option>العربية</option>
                 <option>كوردى</option>
             </select>
+        </div>
+        <div class="mobile-option-bar">
+             <div class="mdiv1">
+                <button class="mobile-menu-button" onclick="mobilemenu();"><img src="IMG/menubar.png" class="mobile-image"></button>
+                <div class="mobile-div-lang">
+                    <div class="mobile-div-buts">
+                        <div class="mmm mx mx-4"><a class="nochangea" href="index.html" onclick="func1();"><p class="m-0">Home</p><div class="active active1">_</div></a></div>
+                        <div class="mmm mx mx-5"><a class="nochangea" href="x4.html" onclick="func2();"><p class=" m-1">Digital menu</p><div class="active active2">_</div></a></div>
+                        <div class="mmm mx mx-6"><a class="nochangea" href="x.html" onclick="func3();"><p class="m-2">Contact</p><div class="active active3">_</div></a></div>
+                    </div>
+                    <select class="div-but">
+                        <option>English</option>
+                        <option>العربية</option>
+                        <option>كوردى</option>
+                    </select>
+                </div>
+            </div> 
         </div>
     </header>
     <div class="subheader">
@@ -107,6 +124,6 @@
     </footer>
     
 
-    <script src="JS/x.js"></script>
+    <script src="JS/x3.js"></script>
 </body>
 </html>
