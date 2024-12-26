@@ -15,7 +15,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
     z-index: 1;
 }
 
@@ -41,6 +40,46 @@ header{
 .div-lang{
     margin-right: 50px;
 }
+.mobile-option-bar{
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    pointer-events: none;
+}
+.mdiv1{
+    position: relative;
+}
+.mobile-div-lang{
+    position: absolute;
+    bottom: -305px;
+    right: -15px;
+    background-color: white;
+    width: 100px;
+    height: 300px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 20px;
+    opacity: 0;
+    pointer-events: none;
+}
+.mobile-div-buts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.mobile-image{
+    height: 34px;
+}
+.mobile-menu-button{
+    border: none;
+    background-color: rgb(225, 225, 225);
+    cursor: pointer;
+}
+
 
 .div-but{
     padding-left: 10px;
@@ -264,6 +303,71 @@ footer p{
     .img-d1{
         height: 200px;
         object-fit: cover;
+    }
+    .mx{
+        pointer-events: none;
+    }
+    .div-lang{
+        opacity: 0;
+        pointer-events: none;
+    }
+    .mmm{
+        pointer-events: all;
+        cursor: pointer;
+    }
+    .active1{
+        position: absolute;
+        left: 41%;
+        bottom: 0;
+        font-size: 40px;
+    }
+    .mmm{
+        pointer-events: all;
+        cursor: pointer;
+    }
+    .active1{
+        position: absolute;
+        left: 41%;
+        bottom: 0;
+        font-size: 40px;
+    }
+    .active2{
+        position: absolute;
+        left: 42%;
+        bottom: 0;
+        font-size: 40px;
+        opacity: 0;
+    }
+    .mmm{
+        pointer-events: all;
+        cursor: pointer;
+    }
+    .active1{
+        position: absolute;
+        left: 41%;
+        bottom: 0;
+        font-size: 40px;
+    }
+    .active2{
+        position: absolute;
+        left: 42%;
+        bottom: 0;
+        font-size: 40px;
+        opacity: 0;
+    }
+    .active3{
+        position: absolute;
+        left: 40%;
+        bottom: 0;
+        font-size: 40px;
+        opacity: 1;
+    }
+    .mobile-option-bar{
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+        opacity: 1;
+        pointer-events: all;
     }
 }
 
